@@ -1,0 +1,22 @@
+{
+  "name": "employee-review-system",
+  "version": "1.0.0",
+  "description": "this application cater the feedback service within employees and admin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vikramkbgs/employee-review-system.git"
+  },
+  "keywords": [
+    "feedback"
+  ],
+  "author": "vikram kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikramkbgs/employee-review-system/issues"
+  },
+  "homepage": "https://github.com/vikramkbgs/employee-review-system#readme"
+}
