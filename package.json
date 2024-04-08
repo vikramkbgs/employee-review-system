@@ -4,7 +4,9 @@
   "description": "this application cater the feedback service within employees and admin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +22,11 @@
   },
   "homepage": "https://github.com/vikramkbgs/employee-review-system#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.9",
     "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
     "mongoose": "^8.3.0"
   }
 }
