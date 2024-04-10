@@ -5,41 +5,41 @@ This is a web application for managing employee performance reviews. It allows a
 ## Folder Structure
 
 📂 assets/
-    📂 image/
-    🖼️ feedbackCover.jpeg
-    🖼️ manager.png
+├── 📂 image/
+│ ├── 🖼️ feedbackCover.jpeg
+│ └── 🖼️ manager.png
 
 📂 config/
-    📄 middleware.js
-    📄 mongoose.js
-    📄 passport_local.js
+├── 📄 middleware.js
+├── 📄 mongoose.js
+└── 📄 passport_local.js
 
 📂 controllers/
-    📄 adminController.js
-    📄 employeeController.js
-    📄 userController.js
+├── 📄 adminController.js
+├── 📄 employeeController.js
+└── 📄 userController.js
 
 📂 models/
-    📄 feedback.js
-    📄 User.js
+├── 📄 feedback.js
+└── 📄 User.js
 
 📂 node_modules/
 
 📂 routes/
-    📄 admin.js
-    📄 employee.js
-    📄 index.js
-    📄 user.js
+├── 📄 admin.js
+├── 📄 employee.js
+├── 📄 index.js
+└── 📄 user.js
 
 📂 views/
-    📄 _header.ejs
-    📄 addEmployee.ejs
-    📄 admin.ejs
-    📄 employee.ejs
-    📄 layout.ejs
-    📄 signIn.ejs
-    📄 signUp.ejs
-    📄 updateForm.ejs
+├── 📄 _header.ejs
+├── 📄 addEmployee.ejs
+├── 📄 admin.ejs
+├── 📄 employee.ejs
+├── 📄 layout.ejs
+├── 📄 signIn.ejs
+├── 📄 signUp.ejs
+└── 📄 updateForm.ejs
 
 📄 .env
 📄 .gitignore
