@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 
 // mongoDB url stored in env variable
-const MONGODB_URL = process.env.MONGODB_URL;
+const { MONGODB_URL } = process.env;
 
 
 // connect to database

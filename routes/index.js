@@ -1,12 +1,16 @@
+
+// express
 const express = require('express');
 
+// create new router
 const router = express.Router();
 
-const homeController = require('../controllers/homeController');
+// for user related routes
+router.use('/',require('./user'));
+// for routes related to admin
+router.use('/dashboard/admin',require('./admin'));
+// for routes related to employee
+router.use('/dashboard/employee',require('./employee'));
 
-router.get('/', homeController.home);
-router.get('/sign-up',homeController.signUp);
-router.post('/create-session',homeController.createSession);
-router.post('/create-account',homeController.createAccount);
-
+// export the router
 module.exports = router;
