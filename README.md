@@ -3,6 +3,7 @@
 This is a web application for managing employee performance reviews. It allows administrators to add, remove, update, and view employees, as well as manage performance reviews. Employees can view their assigned performance reviews and submit feedback.
 
 ## Folder Structure
+```
 
 📂 assets/
 ├── 📂 image/
@@ -47,6 +48,7 @@ This is a web application for managing employee performance reviews. It allows a
 📄 package-lock.json
 📄 package.json
 📄 README.md
+```
 
 ## Getting Started
 
