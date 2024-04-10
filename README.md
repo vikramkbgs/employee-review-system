@@ -61,8 +61,8 @@ Before running the application, you need to have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/employee-performance-review.git
-   cd employee-performance-review
+   git clone https://github.com/your-username/employee-review-system.git
+   cd employee-review-system
    npm install
 
 
