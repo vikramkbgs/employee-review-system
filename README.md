@@ -42,8 +42,6 @@ This is a web application for managing employee performance reviews. It allows a
 ├── 📄 signUp.ejs
 └── 📄 updateForm.ejs
 
-📄 .env
-📄 .gitignore
 📄 index.js
 📄 package-lock.json
 📄 package.json
